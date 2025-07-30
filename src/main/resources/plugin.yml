@@ -3,7 +3,12 @@ version: 0.5
 api-version: '1.20'
 authors: [TiagoFar78, iquelli]
 main: net.tiagofar78.prisonescape.PrisonEscape
+description: Ultimate prison escape multiplayer minigame for Minecraft servers
+website: https://github.com/TiagoFar78/PrisonEscape
 commands:
   prisonescape:
+    description: Join and manage prison escape games
+    usage: /<command> [join|leave|list|forcestart|forcestop|rejoin|loadmaps]
     aliases: [pe]
 depend: [WorldEdit, Citizens, Multiverse-Core]
+softdepend: [Vault]
